@@ -20,5 +20,10 @@
         echo "resultado é $resultado";
     }
 
+    function media($num1,$num2,$num3,$num4) {
+        $media = ($num1 + $num2 + $num3 + $num4)/4;
+        echo "Média: " . number_format($media, 1,',',"");
+    }
+
 
 ?>
