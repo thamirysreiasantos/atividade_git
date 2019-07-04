@@ -2,7 +2,7 @@
   
     function soma($numero1, $numero2){
         $resultado = $numero1 + $numero2;
-        echo "Resultado: " . $resultado;
+        return $resultado;
     }
 
     function sub($num1, $num2) {
@@ -23,11 +23,16 @@
 
 
     function fat($numero) {
-        while ($numero >= 1) {
-            $fatorial = $fatorial * $numero;
-            $numero = $numero - 1;
+        $fatorial = 1;
+        for ($i=$numero  ; $i >= 1 ; $i-- ) { 
+            echo "Contagem: $i <br>";
+    
+            $fatorial = $i * $fatorial;
+    
+    
         }
-        echo "Fatorial: $fatorial";
+    
+        echo "fatorial: $fatorial";
     }
 
     function divisao ($num1, $num2){
