@@ -23,4 +23,14 @@
         echo "Fatorial: $fatorial";
     }
 
+    function divisao ($num1, $num2){
+        if ($num2 != 0){
+            $resultado = $num1/$num2;
+            echo "Resultado é $resultado";
+        }
+        else {
+            echo "não podera dividir por zero"
+        }
+    }
+
 ?>
