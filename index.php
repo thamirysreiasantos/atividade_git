@@ -2,7 +2,7 @@
   
     function soma($numero1, $numero2){
         $resultado = $numero1 + $numero2;
-        return $resultado;
+        echo "Resultado: " . $resultado;
     }
 
     function sub($num1, $num2) {
@@ -36,7 +36,7 @@
             echo "Resultado é $resultado";
         }
         else {
-            echo "não podera dividir por zero"
+            echo "não podera dividir por zero";
         }
     }
 
