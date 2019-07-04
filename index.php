@@ -15,13 +15,13 @@
         echo "resultado é $resultado";
     }
 
-<<<<<<< HEAD
+
     function media($num1,$num2,$num3,$num4) {
         $media = ($num1 + $num2 + $num3 + $num4)/4;
         echo "Média: " . number_format($media, 1,',',"");
     }
 
-=======
+
     function fat($numero) {
         while ($numero >= 1) {
             $fatorial = $fatorial * $numero;
@@ -39,6 +39,6 @@
             echo "não podera dividir por zero"
         }
     }
->>>>>>> 9b8f316178c07109056ff80bed48687076d7181b
+
 
 ?>
