@@ -36,7 +36,7 @@
             echo "Resultado é $resultado";
         }
         else {
-            echo "não podera dividir por zero"
+            echo "não podera dividir por zero";
         }
     }
 
